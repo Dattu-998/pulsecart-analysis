@@ -2,9 +2,9 @@ PulseCart Customer Intelligence — Analysis Report
 
 How to Rerun:-
 
-1. Clone the repo and place the raw data under `data/csv/` and `data/images/` (folder structure expected by the notebook: `customers.csv`, `products.csv`, `orders.csv`, `support_tickets.csv`, `daily_ops.csv`, `image_labels.csv`, plus an `images/` directory with `damaged/`, `normal/`, `wrong_item/` subfolders).
+1. Clone the repo and place the raw data under data/csv/ and data/images/ (folder structure expected by the notebook: customers.csv, products.csv, orders.csv, support_tickets.csv, daily_ops.csv, image_labels.csv, plus an images/ directory with damaged/, normal/, wrong_item/ subfolders).
 2. Install dependencies (see Environment below).
-3. Open `analysis.ipynb` in Jupyter and run all cells top to bottom — later stations (D onward) depend on cleaned data produced in Stations B and C, so cells must run in order.
+3. Open analysis.ipynb in Jupyter and run all cells top to bottom — later stations (D onward) depend on cleaned data produced in Stations B and C, so cells must run in order.
 4. Outputs (plots, metrics, confusion matrix) print inline; no external files are written.
 
 Environment:-
