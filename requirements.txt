@@ -6,6 +6,5 @@ matplotlib>=3.8
 SQLAlchemy>=2.0
 pymysql>=1.1
 pillow>=10.0
-# Station H — pick one
-# tensorflow>=2.15
-# torch>=2.2
+statsmodels>=0.14
+tensorflow>=2.15
